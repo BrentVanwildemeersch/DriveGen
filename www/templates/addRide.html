@@ -1,0 +1,56 @@
+<ion-view title="Add Ride" id="page5">
+  <ion-content padding="true" class="has-header">
+    <form id="addRide-form2" class="list">
+      <label class="item item-input" id="addRide-search2">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="">
+      </label>
+    </form>
+    <div style="margin-left: -10px; width: calc(100% + 20px);">
+      <img src="img/y16AjauqSSyfdS7oCehu__82931280_82931279.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <h4 id="addRide-heading1" style="color:#000000;">Details </h4>
+    <div id="addRide-button-bar1" class="button-bar"></div>
+    <form id="addRide-form4" class="list">
+      <ion-item class="item-divider" id="addRide-list-item-divider4"> Days :</ion-item>
+      <ion-radio id="addRide-radio2">Monday</ion-radio>
+      <ion-radio id="addRide-radio3">Tuesday</ion-radio>
+      <ion-radio id="addRide-radio4">Wednesday</ion-radio>
+      <ion-radio id="addRide-radio5">Thursday</ion-radio>
+      <ion-radio id="addRide-radio6">Friday</ion-radio>
+      <ion-radio id="addRide-radio7">Saturday</ion-radio>
+      <ion-item class="item-divider" id="addRide-list-item-divider5"> Time</ion-item>
+      <label class="item item-select" id="addRide-select1">
+        <span class="input-label">Morning Departure </span>
+        <select>
+          <option>6:00AM</option>
+          <option>6:30AM</option>
+          <option>7:00AM</option>
+          <option>7:30AM</option>
+          <option>8:00AM</option>
+        </select>
+      </label>
+      <label class="item item-select" id="addRide-select2">
+        <span class="input-label">Evening Departure </span>
+        <select>
+          <option>15:00PM</option>
+          <option>15:30PM</option>
+          <option>16:00PM</option>
+          <option>16:30PM</option>
+          <option>17:00PM</option>
+          <option>17:30PM</option>
+          <option>18:00PM</option>
+        </select>
+      </label>
+      <ion-item class="item-divider" id="addRide-list-item-divider7"> # Passengers</ion-item>
+      <ion-item class="range range-positive" id="addRide-range1">Passengers
+        <input type="range" value="1" min="0" max="4" step="1">
+      </ion-item>
+      <ion-item class="item-divider" id="addRide-list-item-divider6"> Preferences</ion-item>
+      <ion-radio id="addRide-radio10">Music</ion-radio>
+      <ion-radio id="addRide-radio11">Food&amp;Drinks</ion-radio>
+      <ion-radio id="addRide-radio12">Smoking</ion-radio>
+      <a ui-sref="driveGen.home" id="addRide-button10" class="button button-positive  button-block">Add Ride</a>
+    </form>
+  </ion-content>
+</ion-view>
